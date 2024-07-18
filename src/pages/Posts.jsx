@@ -79,7 +79,7 @@ function Posts() {
       <div ref={lastElement} style={{height: 20}}/>
 
       {isPostsLoading &&
-        <div style={{display: 'flex', justifyContent: 'center', marginTop: 50}}>
+        <div style={{display: 'flex', justifyContent: 'center', marginTop: 40, marginBottom: 50}}>
           <Loader/>
         </div>
       }
